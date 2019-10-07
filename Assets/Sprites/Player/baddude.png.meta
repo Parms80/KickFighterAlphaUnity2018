@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: e18ef6d9173614859b5f128655175363
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: baddude_0
+    21300002: baddude_1
+    21300004: baddude_2
+    21300006: baddude_3
+    21300008: baddude_4
+    21300010: baddude_5
+    21300012: baddude_6
+    21300014: baddude_7
+    21300016: baddude_8
+    21300018: baddude_9
+    21300020: baddude_10
+    21300022: baddude_11
+    21300024: baddude_12
+    21300026: baddude_13
+    21300028: baddude_14
+    21300030: baddude_15
+    21300032: baddude_16
+    21300034: baddude_17
+    21300036: baddude_18
+    21300038: baddude_19
+    21300040: baddude_20
+    21300042: baddude_21
+    21300044: baddude_22
+    21300046: baddude_23
+    21300048: baddude_24
+    21300050: baddude_25
+    21300052: baddude_26
+    21300054: baddude_27
+    21300056: baddude_28
+    21300058: baddude_29
+    21300060: baddude_30
+    21300062: baddude_31
+    21300064: baddude_32
+    21300066: baddude_33
+    21300068: baddude_34
+    21300070: baddude_35
+    21300072: baddude_36
+    21300074: baddude_37
+    21300076: baddude_38
+    21300078: baddude_39
+    21300080: baddude_40
+    21300082: baddude_41
+    21300084: baddude_42
+    21300086: baddude_43
+    21300088: baddude_44
+    21300090: baddude_45
+    21300092: baddude_46
+    21300094: baddude_47
+    21300096: baddude_48
+    21300098: baddude_49
+    21300100: baddude_50
+    21300102: baddude_51
+    21300104: baddude_52
+    21300106: baddude_53
+    21300108: baddude_54
+    21300110: baddude_55
+    21300112: baddude_56
+    21300114: baddude_57
+    21300116: baddude_58
+    21300118: baddude_59
+    21300120: baddude_60
+    21300122: baddude_61
+    21300124: baddude_62
+    21300126: baddude_63
+    21300128: baddude_64
+    21300130: baddude_65
+    21300132: baddude_66
+    21300134: baddude_67
+    21300136: baddude_68
+    21300138: baddude_69
+    21300140: baddude_70
+    21300142: baddude_71
+    21300144: baddude_72
+    21300146: baddude_73
+    21300148: baddude_74
+    21300150: baddude_75
+    21300152: baddude_76
+    21300154: baddude_77
+    21300156: baddude_78
+    21300158: baddude_79
+    21300160: baddude_80
+    21300162: baddude_81
+    21300164: baddude_82
+    21300166: baddude_83
+    21300168: baddude_84
+    21300170: baddude_85
+    21300172: baddude_86
+    21300174: baddude_87
+    21300176: baddude_88
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: baddude_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 530
+        width: 61
+        height: 105
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 530
+        width: 81
+        height: 102
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 530
+        width: 99
+        height: 102
+      alignment: 9
+      pivot: {x: .370000005, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 531
+        width: 44
+        height: 106
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_4
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 527
+        width: 51
+        height: 113
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 523
+        width: 30
+        height: 114
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 395
+        width: 45
+        height: 114
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 391
+        width: 48
+        height: 113
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 390
+        width: 36
+        height: 114
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_9
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 387
+        width: 33
+        height: 115
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 387
+        width: 55
+        height: 114
+      alignment: 9
+      pivot: {x: .409999996, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 387
+        width: 58
+        height: 113
+      alignment: 9
+      pivot: {x: .439999998, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 265
+        width: 90
+        height: 101
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 281
+        width: 99
+        height: 77
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 307
+        width: 123
+        height: 35
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 174
+        width: 58
+        height: 75
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 159
+        width: 65
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_17
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 166
+        width: 68
+        height: 100
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_18
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 169
+        width: 92
+        height: 97
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 60
+        width: 78
+        height: 82
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 61
+        width: 123
+        height: 79
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: baddude_21
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 60
+        width: 107
+        height: 79
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

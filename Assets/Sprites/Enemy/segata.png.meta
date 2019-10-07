@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 2863938f720e445f88bfb0a94db44f02
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: segata_0
+    21300002: segata_1
+    21300004: segata_2
+    21300006: segata_3
+    21300008: segata_4
+    21300010: segata_5
+    21300012: segata_6
+    21300014: segata_7
+    21300016: segata_8
+    21300018: segata_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: segata_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 228
+        width: 59
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 229
+        width: 52
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 227
+        width: 55
+        height: 105
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_3
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 230
+        width: 60
+        height: 105
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_4
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 226
+        width: 58
+        height: 107
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 95
+        width: 106
+        height: 98
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_6
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 95
+        width: 64
+        height: 104
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: segata_7
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 99
+        width: 55
+        height: 106
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 11
+        width: 108
+        height: 55
+      alignment: 9
+      pivot: {x: .339407027, y: -.00758295925}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 114
+        height: 69
+      alignment: 9
+      pivot: {x: .369434834, y: .562248111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

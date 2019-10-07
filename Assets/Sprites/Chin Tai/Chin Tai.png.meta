@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: 98d8372c346244be5a0445341e978f17
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Chin Tai_0
+    21300002: Chin Tai_1
+    21300004: Chin Tai_2
+    21300006: Chin Tai_3
+    21300008: Chin Tai_4
+    21300010: Chin Tai_5
+    21300012: Chin Tai_6
+    21300014: Chin Tai_7
+    21300016: Chin Tai_8
+    21300018: Chin Tai_9
+    21300020: Chin Tai_10
+    21300022: Chin Tai_11
+    21300024: Chin Tai_12
+    21300026: Chin Tai_13
+    21300028: Chin Tai_14
+    21300030: Chin Tai_15
+    21300032: Chin Tai_16
+    21300034: Chin Tai_17
+    21300036: Chin Tai_18
+    21300038: Chin Tai_19
+    21300040: Chin Tai_20
+    21300042: Chin Tai_21
+    21300044: Chin Tai_22
+    21300046: Chin Tai_23
+    21300048: Chin Tai_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Chin Tai_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 689
+        width: 40
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 694
+        width: 36
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_2
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 694
+        width: 36
+        height: 105
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 694
+        width: 41
+        height: 110
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_4
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 693
+        width: 41
+        height: 115
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 545
+        width: 37
+        height: 104
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_6
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 545
+        width: 36
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 548
+        width: 37
+        height: 109
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_8
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 542
+        width: 41
+        height: 107
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_9
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 539
+        width: 40
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_10
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 415
+        width: 39
+        height: 110
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_11
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 412
+        width: 48
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 410
+        width: 49
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 404
+        width: 46
+        height: 108
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 409
+        width: 37
+        height: 106
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 320
+        width: 105
+        height: 51
+      alignment: 9
+      pivot: {x: .284560382, y: .0554444566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 301
+        width: 94
+        height: 77
+      alignment: 9
+      pivot: {x: .274390191, y: .0183612779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_17
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 284
+        width: 88
+        height: 100
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_18
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 288
+        width: 64
+        height: 103
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 157
+        width: 66
+        height: 100
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 147
+        width: 54
+        height: 111
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_21
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 24
+        width: 57
+        height: 102
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_22
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 26
+        width: 71
+        height: 95
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 27
+        width: 79
+        height: 96
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Chin Tai_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 24
+        width: 85
+        height: 99
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
