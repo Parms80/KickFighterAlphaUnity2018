@@ -21,13 +21,13 @@ public class Humanoid : MonoBehaviour {
 	protected int energy;
 	protected bool shieldEnabled = false;
 	private Transform groundCheck;
-	private BoxCollider2D groundCheckBoxCollider;
+//	private BoxCollider2D groundCheckBoxCollider;
 	private GameObject hitParticles;
 	
 	public virtual void Start () {
 		anim = GetComponent <Animator>();
 		groundCheck = transform.Find(Constants.STRING_GROUNDCHECK);
-		groundCheckBoxCollider = groundCheck.GetComponent<BoxCollider2D>();
+//		groundCheckBoxCollider = groundCheck.GetComponent<BoxCollider2D>();
 		gameLogicObject = GameObject.Find ("GameLogic");
 		gameLogicScript = gameLogicObject.GetComponent<GameLogic>();
 		collisionBox = gameObject.GetComponent<Collider2D>();
@@ -56,12 +56,11 @@ public class Humanoid : MonoBehaviour {
 
 	bool isCharacterOnGround()
 	{
-		bool isTouching = groundCheckBoxCollider.IsTouchingLayers(LayerMask.GetMask(Constants.STRING_GROUND));
-		Debug.Log("isTouching = "+isTouching);
-		return isTouching;
-//		return Physics2D.Linecast(transform.localPosition, 
-//		                          groundCheck.position, 
-//		                          1 << LayerMask.NameToLayer(Constants.STRING_GROUND));
+//		bool isTouching = groundCheckBoxCollider.IsTouchingLayers(LayerMask.GetMask(Constants.STRING_GROUND));
+//		return isTouching;
+		return Physics2D.Linecast(transform.localPosition, 
+		                          groundCheck.position, 
+		                          1 << LayerMask.NameToLayer(Constants.STRING_GROUND));
 //		if (transform.position.y <= -0.64f) {
 //			return true;
 //		} else {
@@ -77,7 +76,7 @@ public class Humanoid : MonoBehaviour {
 				enableColliderBeforeHittingDestroyer();
 				break;
 			
-			case Constants.KNOCKED_BACK:
+		case Constants.KNOCKED_BACK:
 				if (landedOnGround()) {
 					moveSpeed = 0;
 					if (hasAnimationFinished()) {

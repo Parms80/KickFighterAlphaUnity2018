@@ -85,6 +85,7 @@ public class Player : Humanoid {
 			if (pauseButton.activeSelf) {
 				pauseButton.SetActive(false);
 			}
+			Debug.Log("Player: FALLING");
 			break;
 		}
 	}

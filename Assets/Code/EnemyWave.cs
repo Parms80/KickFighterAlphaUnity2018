@@ -142,9 +142,9 @@ public class EnemyWave : MonoBehaviour {
 		RaycastHit2D groundPos = Physics2D.Linecast (linecastStartPos, 
 		                                             linecastEndPos, 
 		                                             1 << LayerMask.NameToLayer(Constants.STRING_GROUND));
-		
 		Vector3 spawnPosition = obj.transform.position;
-		spawnPosition.y = groundPos.transform.position.y;
+//		spawnPosition.y = groundPos.transform.position.y;
+		spawnPosition.y = -0.62f;			// Hack to get it working with Unity 2018
 		obj.transform.position = spawnPosition;
 	}
 
