@@ -29,6 +29,7 @@ public class Player : Humanoid {
 		dashEnabled = false;
 		disableShield();
 		attackStrength = normalAttackStrength;
+		numTimesHitGround = 0;
 	}
 
 	public override void checkAndRunState () {

@@ -23,6 +23,9 @@ public class Humanoid : MonoBehaviour {
 	private Transform groundCheck;
 //	private BoxCollider2D groundCheckBoxCollider;
 	private GameObject hitParticles;
+	private bool prevGrounded;
+	private bool hitGround;
+	public int numTimesHitGround;
 	
 	public virtual void Start () {
 		anim = GetComponent <Animator>();
@@ -40,18 +43,23 @@ public class Humanoid : MonoBehaviour {
 		anim.Play(Constants.STRING_RUN);
 		alreadyHit = false;
 		energy = startingEnergy;
+		hitGround = false;
+		numTimesHitGround = 0;
 	}
 	
 	void Update () {
 		if (!gameLogicScript.isPaused) {
+			prevGrounded = grounded;
 			if (gameLogicScript.gameState == Constants.GAMESTATE_PLAY || 
 			    gameLogicScript.gameState == Constants.GAMESTATE_GETREADY) {
-				grounded = isCharacterOnGround ();
+//				grounded = isCharacterOnGround ();
 				checkAndRunState ();
-			} else {
-//				anim.Play(Constants.STRING_RUN);
 			}
 		} 
+	}
+
+	void OnCollisionEnter2D(Collision2D col) {
+		numTimesHitGround++;
 	}
 
 	bool isCharacterOnGround()
@@ -61,37 +69,34 @@ public class Humanoid : MonoBehaviour {
 		return Physics2D.Linecast(transform.localPosition, 
 		                          groundCheck.position, 
 		                          1 << LayerMask.NameToLayer(Constants.STRING_GROUND));
-//		if (transform.position.y <= -0.64f) {
-//			return true;
-//		} else {
-//			return false;
-//		}
 	}
 
 	public virtual void checkAndRunState()	{
 		switch (state) 
 		{
 			case Constants.FALLING:
+				translateBackwards();
 				disableColliderWhenFalling();
 				enableColliderBeforeHittingDestroyer();
 				break;
 			
-		case Constants.KNOCKED_BACK:
+			case Constants.KNOCKED_BACK:
+				translateBackwards();
 				if (landedOnGround()) {
-					moveSpeed = 0;
-					if (hasAnimationFinished()) {
-						state = Constants.GET_UP;
-						anim.Play (Constants.STRING_GETUP);
-					}
+					state = Constants.GET_UP;
+					anim.Play (Constants.STRING_GETUP);
 				}
-			break;
+				break;
 			
 			case Constants.GET_UP:
-				if (hasAnimationFinished()) {
+
+				moveSpeed = 0;
+			 	if (hasAnimationFinished()) {
 					moveSpeed = initialSpeed;
 					state = Constants.RUNNING;
 					anim.Play (Constants.STRING_RUN);
 					alreadyHit = false;
+					hitGround = false;
 				}
 			break;
 		}
@@ -121,7 +126,8 @@ public class Humanoid : MonoBehaviour {
 	
 	private void fallBack() {
 		moveSpeed *= -2;
-		GetComponent<Rigidbody2D>().AddForce(knockBackForce);
+		Rigidbody2D rb = GetComponent<Rigidbody2D>();
+		rb.AddForce(knockBackForce);
 		AudioSource.PlayClipAtPoint(hitSound, transform.position);
 		anim.Play(Constants.STRING_FALLING);
 		state = Constants.KNOCKED_BACK;
@@ -130,6 +136,14 @@ public class Humanoid : MonoBehaviour {
 	private void MakeHumanFall(){
 		collisionBox.enabled = false;
 		state = Constants.FALLING;
+	}
+
+	private void translateBackwards() {
+		if (gameObject.tag == "Enemy")
+		{
+			float moveDistance = 3.0f * Time.deltaTime;
+			transform.Translate(Vector3.right * moveDistance);
+		}
 	}
 	
 	public void startHitParticles() {
@@ -148,8 +162,13 @@ public class Humanoid : MonoBehaviour {
 	}
 	
 	private bool landedOnGround() {
-		if (grounded && transform.GetComponent<Rigidbody2D>().velocity.y < 0)
+		float yVelocity = transform.GetComponent<Rigidbody2D>().velocity.y;
+//		Debug.Log("landedOnGround: grounded = "+grounded+ ", yVelocity = " + yVelocity);
+//		if (grounded && yVelocity < 0)
+//		if (!prevGrounded && grounded)
+		if (numTimesHitGround == 2)
 		{
+			numTimesHitGround = 1;
 			return true;
 		}
 		return false;

@@ -27,6 +27,7 @@ public class Enemy : Humanoid {
 		box.enabled = true;
 		energy = startingEnergy;
 		moveSpeed = initialSpeed;
+		numTimesHitGround = 0;
 	}
 
 	public override void checkAndRunState () {
